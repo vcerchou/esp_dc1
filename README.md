@@ -51,7 +51,21 @@
 2、以后通过长按【总开关】进入配网模式
 
 ## 如何编译
-Visual Studio Code + PlatformIO ID 开发  [安装](https://www.jianshu.com/p/c36f8be8c87f)
+### Debian11下
+安装环境pip3,platformio,已装可省略
+apt install python3-pip
+pip3 install platformio
+下载本源码,也可下载原作者源码
+git clone https://github.com/chibm/esp_dc1.git
+编译
+cd ./esp_dc1
+platformio run
+完成
+固件在./esp_dc1/.pio/build/dc1/firmware.bin,想办法下载到本地电脑或者手机,然后通过网页上传文件刷
+
+![image](https://user-images.githubusercontent.com/67989598/205861919-71603fa0-20ba-4a8f-8902-91a3f495b59b.png)
+
+
 
 ## 已支持接入的开源智能家居平台
 以下排序随机，不分优劣。合适自己的就好。
