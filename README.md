@@ -72,7 +72,7 @@ platformio run
 
 完成
 
-固件在./esp_dc1/.pio/build/dc1/firmware.bin,想办法下载到本地电脑或者手机,然后通过网页上传文件刷
+固件在./esp_dc1/.pio/build/dc1/firmware.bin
 
 ![image](https://user-images.githubusercontent.com/67989598/205861919-71603fa0-20ba-4a8f-8902-91a3f495b59b.png)
 
