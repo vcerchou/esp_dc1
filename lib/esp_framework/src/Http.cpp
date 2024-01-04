@@ -271,7 +271,7 @@ void Http::handleRoot()
 #endif
 
     server->sendContent_P(
-        PSTR("</div><div style='text-align:center;margin-top:20px'>开发者：<a href='https://github.com/qlwz' target='_blank' style='color:#333;text-decoration:none'>情留メ蚊子</a>&nbsp;&nbsp;&nbsp;<a href='https://bbs.iobroker.cn' target='_blank' style='color:#333;text-decoration:none'>来和大神一起玩智能家居</a></div><div></body></html>"));
+        PSTR("</div><div style='text-align:center;margin-top:20px'>开发者：<a href='https://github.com/vcerchou' target='_blank' style='color:#333;text-decoration:none'>winnie</a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/vcerchou/esp_dc1' target='_blank' style='color:#333;text-decoration:none'>DC1插座</a></div><div></body></html>"));
 
     // TAB 2
     snprintf_P(tmpData, sizeof(tmpData), PSTR("<script type='text/javascript'>%ssetRadioValue('dhcp', '%d');dhcponchange(null);"),
