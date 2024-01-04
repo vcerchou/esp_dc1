@@ -668,10 +668,10 @@ void DC1::switchRelay(uint8_t ch, bool isOn, bool isSave)
     if (isSave && config.power_on_state > 0)
     {
         bitWrite(config.last_state, ch, isOn);
-        bitSet(operationFlag, 1);
-        Config::delaySaveConfig(10);
+        bitSet(operationFlag, 0);
+        //Config::delaySaveConfig(10);
+        Debug::AddInfo(PSTR("DC1::switchRelay delaysaveconfig"));
     }
-
     if (ch == 0)
     {
         logoLed();
